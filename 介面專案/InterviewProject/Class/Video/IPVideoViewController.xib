@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IPVideoViewController">
+            <connections>
+                <outlet property="bottomTextView" destination="bQj-HF-Kp0" id="jOb-BL-4XW"/>
+                <outlet property="headerView" destination="lLe-9a-JpI" id="oHx-fx-7xF"/>
+                <outlet property="topTextView" destination="Bzb-EV-9W6" id="FAN-TH-Rhk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lLe-9a-JpI" customClass="IPHeaderView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <color key="backgroundColor" red="1" green="0.50980392159999999" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="titleString" value="Video"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Do2-4W-gtv" userLabel="View1">
+                    <rect key="frame" x="15" y="44" width="290" height="247"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6R-P6-T2C">
+                            <rect key="frame" x="-40" y="47" width="370" height="34"/>
+                            <state key="normal" title="Play Youtube Video"/>
+                            <connections>
+                                <action selector="topPlayAction:" destination="-1" eventType="touchUpInside" id="72v-4d-cVe"/>
+                            </connections>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="https://www.youtube.com/watch?v=AjcxPd6Oag8" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Bzb-EV-9W6">
+                            <rect key="frame" x="0.0" y="81" width="290" height="166"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Bzb-EV-9W6" secondAttribute="bottom" id="A5F-ms-9Fc"/>
+                        <constraint firstItem="i6R-P6-T2C" firstAttribute="leading" secondItem="Do2-4W-gtv" secondAttribute="leading" constant="-40" id="FMg-97-Hx6"/>
+                        <constraint firstItem="Bzb-EV-9W6" firstAttribute="leading" secondItem="Do2-4W-gtv" secondAttribute="leading" id="LAA-Ho-W0x"/>
+                        <constraint firstAttribute="trailing" secondItem="Bzb-EV-9W6" secondAttribute="trailing" id="aR7-gk-2Ev"/>
+                        <constraint firstItem="Bzb-EV-9W6" firstAttribute="top" secondItem="i6R-P6-T2C" secondAttribute="bottom" id="dQ3-eF-aj5"/>
+                        <constraint firstAttribute="trailing" secondItem="i6R-P6-T2C" secondAttribute="trailing" constant="-40" id="rCs-7B-8Xo"/>
+                        <constraint firstItem="i6R-P6-T2C" firstAttribute="top" secondItem="Do2-4W-gtv" secondAttribute="top" constant="47" id="w1e-2k-ZyD"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jpu-wX-hFm" userLabel="View2">
+                    <rect key="frame" x="15" y="306" width="290" height="247"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpc-by-Dxj">
+                            <rect key="frame" x="-40" y="47" width="370" height="34"/>
+                            <state key="normal" title="Play Vimeo Video"/>
+                            <connections>
+                                <action selector="bottomPlayAction:" destination="-1" eventType="touchUpInside" id="nbt-i6-5yl"/>
+                            </connections>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="https://vimeo.com/92179785" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bQj-HF-Kp0">
+                            <rect key="frame" x="0.0" y="81" width="290" height="166"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="qpc-by-Dxj" secondAttribute="trailing" constant="-40" id="2lO-K5-rP6"/>
+                        <constraint firstItem="qpc-by-Dxj" firstAttribute="leading" secondItem="jpu-wX-hFm" secondAttribute="leading" constant="-40" id="BGZ-Sj-v4s"/>
+                        <constraint firstItem="bQj-HF-Kp0" firstAttribute="top" secondItem="qpc-by-Dxj" secondAttribute="bottom" id="JD6-mq-deM"/>
+                        <constraint firstItem="qpc-by-Dxj" firstAttribute="top" secondItem="jpu-wX-hFm" secondAttribute="top" constant="47" id="b5e-4O-K9P"/>
+                        <constraint firstItem="bQj-HF-Kp0" firstAttribute="leading" secondItem="jpu-wX-hFm" secondAttribute="leading" id="huO-xz-4M4"/>
+                        <constraint firstAttribute="trailing" secondItem="bQj-HF-Kp0" secondAttribute="trailing" id="qr2-La-Cw2"/>
+                        <constraint firstAttribute="bottom" secondItem="bQj-HF-Kp0" secondAttribute="bottom" id="wBy-Nu-O1E"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.25098039220000001" green="0.12941176469999999" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lLe-9a-JpI" secondAttribute="trailing" id="4pM-H7-6LC"/>
+                <constraint firstItem="jpu-wX-hFm" firstAttribute="height" secondItem="Do2-4W-gtv" secondAttribute="height" id="AUf-6U-Gkz"/>
+                <constraint firstItem="jpu-wX-hFm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="QsW-m3-g4m"/>
+                <constraint firstItem="lLe-9a-JpI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ULS-Xf-7fm"/>
+                <constraint firstItem="lLe-9a-JpI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="WWr-lN-XHC"/>
+                <constraint firstItem="Do2-4W-gtv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="aMu-Uh-qlf"/>
+                <constraint firstAttribute="bottom" secondItem="jpu-wX-hFm" secondAttribute="bottom" constant="15" id="axB-Wc-Ssc"/>
+                <constraint firstItem="jpu-wX-hFm" firstAttribute="top" secondItem="Do2-4W-gtv" secondAttribute="bottom" constant="15" id="bYb-eP-gqg"/>
+                <constraint firstAttribute="trailing" secondItem="Do2-4W-gtv" secondAttribute="trailing" constant="15" id="jpm-1o-tWD"/>
+                <constraint firstAttribute="trailing" secondItem="jpu-wX-hFm" secondAttribute="trailing" constant="15" id="jzi-ZK-wRk"/>
+                <constraint firstItem="Do2-4W-gtv" firstAttribute="top" secondItem="lLe-9a-JpI" secondAttribute="bottom" id="xnC-YK-CjB"/>
+            </constraints>
+            <point key="canvasLocation" x="342" y="211"/>
+        </view>
+    </objects>
+</document>

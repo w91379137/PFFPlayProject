@@ -1,0 +1,125 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - EZAudio (1.1.5):
+    - EZAudio/Full (= 1.1.5)
+  - EZAudio/Core (1.1.5)
+  - EZAudio/Full (1.1.5):
+    - EZAudio/Core
+    - TPCircularBuffer (= 1.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - FontAwesomeKit (2.2.0):
+    - FontAwesomeKit/Core (= 2.2.0)
+    - FontAwesomeKit/FontAwesome (= 2.2.0)
+    - FontAwesomeKit/FoundationIcons (= 2.2.0)
+    - FontAwesomeKit/IonIcons (= 2.2.0)
+    - FontAwesomeKit/Zocial (= 2.2.0)
+  - FontAwesomeKit/Core (2.2.0)
+  - FontAwesomeKit/FontAwesome (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.0):
+    - FontAwesomeKit/Core
+  - HCYoutubeParser (0.0.5)
+  - JHChainableAnimations (1.3.0)
+  - Masonry (1.0.0)
+  - MBProgressHUD (0.9.2)
+  - PDSEnvironment_objc (0.0.1)
+  - PDSIBDesignableView_objc (0.0.1):
+    - Masonry
+  - PDSImageControl (0.0.6)
+  - PDSSafeKVO_objc (0.0.5)
+  - PDSSetting_objc (0.0.1)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - TPCircularBuffer (1.1)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+  - XCDYouTubeKit (2.5.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - EZAudio
+  - FMDB
+  - FontAwesomeKit (~> 2.2.0)
+  - HCYoutubeParser
+  - JHChainableAnimations (~> 1.3.0)
+  - Masonry
+  - MBProgressHUD
+  - PDSEnvironment_objc (from `https://github.com/w91379137/PDSEnvironment_objc.git`)
+  - PDSIBDesignableView_objc (from `https://github.com/w91379137/PDSIBDesignableView_objc.git`)
+  - PDSImageControl (from `https://github.com/w91379137/PDSImageControl.git`)
+  - PDSSafeKVO_objc (from `https://github.com/w91379137/PDSSafeKVO_objc.git`)
+  - PDSSetting_objc (from `https://github.com/w91379137/PDSSetting_objc.git`)
+  - SDWebImage
+  - UIActivityIndicator-for-SDWebImage
+  - XCDYouTubeKit (~> 2.5)
+
+EXTERNAL SOURCES:
+  PDSEnvironment_objc:
+    :git: https://github.com/w91379137/PDSEnvironment_objc.git
+  PDSIBDesignableView_objc:
+    :git: https://github.com/w91379137/PDSIBDesignableView_objc.git
+  PDSImageControl:
+    :git: https://github.com/w91379137/PDSImageControl.git
+  PDSSafeKVO_objc:
+    :git: https://github.com/w91379137/PDSSafeKVO_objc.git
+  PDSSetting_objc:
+    :git: https://github.com/w91379137/PDSSetting_objc.git
+
+CHECKOUT OPTIONS:
+  PDSEnvironment_objc:
+    :commit: 32e69a592ccdea909a0c9266cc7f34f7fce14767
+    :git: https://github.com/w91379137/PDSEnvironment_objc.git
+  PDSIBDesignableView_objc:
+    :commit: 1d76384049dedad56d7c7ca2ab3cd02d34293a92
+    :git: https://github.com/w91379137/PDSIBDesignableView_objc.git
+  PDSImageControl:
+    :commit: 5eb1e53a265e77c7542f149b21255f067cae0ae6
+    :git: https://github.com/w91379137/PDSImageControl.git
+  PDSSafeKVO_objc:
+    :commit: 609ab2bd6e8e1ff9edb368748d30d29790dc3423
+    :git: https://github.com/w91379137/PDSSafeKVO_objc.git
+  PDSSetting_objc:
+    :commit: d5d6861a90d8eeb18ca95a886ad64df95fb60b0f
+    :git: https://github.com/w91379137/PDSSetting_objc.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  EZAudio: 3b1cb4b6d7ebca68f0c2478576d75940aad4aa99
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
+  HCYoutubeParser: bc1db8c062e4b835eda381f2be2f9970f6a8d071
+  JHChainableAnimations: 22085fcb04ca87349e584573558e637f659fd769
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  PDSEnvironment_objc: b51d9cf5ca884fec6acc8d6e58b2b78d01bd6166
+  PDSIBDesignableView_objc: c3b67c4c288034bfc957bdac9f9586f9a86b352a
+  PDSImageControl: 667faf0d10f4dd7eebe8098c6e000d62c8e80e00
+  PDSSafeKVO_objc: a9fc93c88b33bd2356fb514243306b4813ca46ff
+  PDSSetting_objc: db49d962b3ccd35aef38e4933ee6dbfede606b34
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  TPCircularBuffer: 4960a919e667280f7f38963d771f45871b64fe62
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+  XCDYouTubeKit: bb81db52d5539f8f34c4081f344980ef38f4644d
+
+COCOAPODS: 0.39.0

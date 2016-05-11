@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10117"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IPMusicViewController">
+            <connections>
+                <outlet property="headerView" destination="eaY-Ww-GZZ" id="Geg-uC-Ifl"/>
+                <outlet property="musicView" destination="96P-bJ-vkq" id="8fe-zs-hkt"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eaY-Ww-GZZ" customClass="IPHeaderView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <color key="backgroundColor" red="1" green="0.50980392159999999" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="titleString" value="Music"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="96P-bJ-vkq" customClass="IPMusicView">
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="ICA-mZ-asO"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="96P-bJ-vkq" firstAttribute="top" secondItem="eaY-Ww-GZZ" secondAttribute="bottom" id="5nP-CG-YUA"/>
+                <constraint firstAttribute="trailing" secondItem="96P-bJ-vkq" secondAttribute="trailing" id="JS4-do-Izl"/>
+                <constraint firstAttribute="bottom" secondItem="96P-bJ-vkq" secondAttribute="bottom" id="WPW-O0-yod"/>
+                <constraint firstItem="eaY-Ww-GZZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aTx-cT-0ZH"/>
+                <constraint firstAttribute="trailing" secondItem="eaY-Ww-GZZ" secondAttribute="trailing" id="dPB-5d-eqL"/>
+                <constraint firstItem="eaY-Ww-GZZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kPJ-TQ-kXS"/>
+                <constraint firstItem="96P-bJ-vkq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mJS-zb-Nfj"/>
+            </constraints>
+            <point key="canvasLocation" x="117" y="166"/>
+        </view>
+    </objects>
+</document>

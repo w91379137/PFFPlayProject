@@ -1,0 +1,54 @@
+//
+//  PrefixHeader.pch
+//  InterviewProject
+//
+//  Created by w91379137 on 2016/4/3.
+//  Copyright © 2016年 w91379137. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+
+//自定義
+#import "IPSetting.h"
+#import "UIFont+AdjustFont.h"
+
+
+//套件檔~Pods
+#import "Masonry.h"
+//https://github.com/SnapKit/Masonry
+
+#import "FontAwesomeKit/FontAwesomeKit.h"
+//https://github.com/PrideChung/FontAwesomeKit
+//https://fortawesome.github.io/Font-Awesome/
+
+#import "AFNetworking.h"
+
+#import "FMDB.h"
+
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "UIImageView+UIActivityIndicatorForSDWebImage.h"
+
+#import "PDSSetting.h"
+#import "PDSSafeKVO_objc.h"
+
+#import "PDSImageControl_objc.h"
+
+#import "IPEnvironmentViewController.h"
+#import "PDSIBDesignableView_objc.h"
+
+//套件檔~Library
+
+//專案檔~資料結構
+#import "IPSQLDBManager.h"
+#import "IPCity.h"
+#import "IPFood.h"
+
+#import "IPNetWorkAPI.h"
+
+//專案檔~群體結構
+//專案檔~基礎結構
+
+#endif /* PrefixHeader_pch */

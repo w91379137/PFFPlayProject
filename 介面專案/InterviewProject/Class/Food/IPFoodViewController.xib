@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IPFoodViewController">
+            <connections>
+                <outlet property="headerView" destination="mfc-dh-3w0" id="3zd-vV-A49"/>
+                <outlet property="mainCollectionView" destination="zof-EA-yUl" id="Rc7-9h-GRr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mfc-dh-3w0" customClass="IPHeaderView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <color key="backgroundColor" red="1" green="0.50980392159999999" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="titleString" value="Food"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="zof-EA-yUl">
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LAU-G5-5vE" customClass="PinterestLayout">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <connections>
+                            <outlet property="delegate" destination="-1" id="FYP-Kq-xR3"/>
+                        </connections>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="wdW-Z5-1Fi"/>
+                        <outlet property="delegate" destination="-1" id="CbQ-0G-dhq"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="0.50196078430000002" green="0.83921568629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="mfc-dh-3w0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="EMg-zJ-4MK"/>
+                <constraint firstItem="mfc-dh-3w0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="MK9-Gh-3ZS"/>
+                <constraint firstAttribute="trailing" secondItem="mfc-dh-3w0" secondAttribute="trailing" id="O8d-J4-xdr"/>
+                <constraint firstAttribute="bottom" secondItem="zof-EA-yUl" secondAttribute="bottom" id="OXv-ct-jfi"/>
+                <constraint firstItem="zof-EA-yUl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="WdZ-Ye-aWv"/>
+                <constraint firstItem="zof-EA-yUl" firstAttribute="top" secondItem="mfc-dh-3w0" secondAttribute="bottom" id="qiL-LY-Ez0"/>
+                <constraint firstAttribute="trailing" secondItem="zof-EA-yUl" secondAttribute="trailing" id="yg4-RV-I3L"/>
+            </constraints>
+            <point key="canvasLocation" x="286" y="243"/>
+        </view>
+    </objects>
+</document>
