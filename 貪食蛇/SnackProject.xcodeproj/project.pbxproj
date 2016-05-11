@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEF60AEEEF7CA67A0AADEB29 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0005C461A0D46E696F585BAA /* libPods.a */; };
+		F8A121611CD473BC001814AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A121601CD473BC001814AC /* main.m */; };
+		F8A121641CD473BC001814AC /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A121631CD473BC001814AC /* SPAppDelegate.m */; };
+		F8A1216C1CD473BC001814AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A1216B1CD473BC001814AC /* Assets.xcassets */; };
+		F8A1216F1CD473BC001814AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A1216D1CD473BC001814AC /* LaunchScreen.storyboard */; };
+		F8A121791CD4748D001814AC /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A121771CD4748D001814AC /* SPViewController.m */; };
+		F8A1217A1CD4748D001814AC /* SPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A121781CD4748D001814AC /* SPViewController.xib */; };
+		F8A121991CD4E236001814AC /* SPCoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A121941CD4E236001814AC /* SPCoordinates.m */; };
+		F8A1219A1CD4E236001814AC /* SPMap.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A121961CD4E236001814AC /* SPMap.m */; };
+		F8A1219B1CD4E236001814AC /* SPSnack.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A121981CD4E236001814AC /* SPSnack.m */; };
+		F8A1219F1CD4E29B001814AC /* SPRectLabelsDIsplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A1219E1CD4E29B001814AC /* SPRectLabelsDIsplayView.m */; };
+		F8A121A21CD4E73C001814AC /* SPQuartzDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A121A11CD4E73C001814AC /* SPQuartzDisplayView.m */; };
+		F8A121AA1CD4F100001814AC /* SnackProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A121A91CD4F100001814AC /* SnackProjectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8A121AC1CD4F100001814AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8A121541CD473BC001814AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8A1215B1CD473BC001814AC;
+			remoteInfo = SnackProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0005C461A0D46E696F585BAA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		428298B110DC3B15BA0E9EE3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A336895FDA5FC0D3E688C0EC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F8A1215C1CD473BC001814AC /* SnackProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A121601CD473BC001814AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8A121621CD473BC001814AC /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		F8A121631CD473BC001814AC /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		F8A1216B1CD473BC001814AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8A1216E1CD473BC001814AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8A121701CD473BC001814AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8A121761CD4748D001814AC /* SPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
+		F8A121771CD4748D001814AC /* SPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
+		F8A121781CD4748D001814AC /* SPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPViewController.xib; sourceTree = "<group>"; };
+		F8A121931CD4E236001814AC /* SPCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCoordinates.h; sourceTree = "<group>"; };
+		F8A121941CD4E236001814AC /* SPCoordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCoordinates.m; sourceTree = "<group>"; };
+		F8A121951CD4E236001814AC /* SPMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMap.h; sourceTree = "<group>"; };
+		F8A121961CD4E236001814AC /* SPMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMap.m; sourceTree = "<group>"; };
+		F8A121971CD4E236001814AC /* SPSnack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSnack.h; sourceTree = "<group>"; };
+		F8A121981CD4E236001814AC /* SPSnack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSnack.m; sourceTree = "<group>"; };
+		F8A1219D1CD4E29B001814AC /* SPRectLabelsDIsplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRectLabelsDIsplayView.h; sourceTree = "<group>"; };
+		F8A1219E1CD4E29B001814AC /* SPRectLabelsDIsplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRectLabelsDIsplayView.m; sourceTree = "<group>"; };
+		F8A121A01CD4E73C001814AC /* SPQuartzDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPQuartzDisplayView.h; sourceTree = "<group>"; };
+		F8A121A11CD4E73C001814AC /* SPQuartzDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPQuartzDisplayView.m; sourceTree = "<group>"; };
+		F8A121A71CD4F100001814AC /* SnackProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnackProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A121A91CD4F100001814AC /* SnackProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnackProjectTests.m; sourceTree = "<group>"; };
+		F8A121AB1CD4F100001814AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8A121591CD473BC001814AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF60AEEEF7CA67A0AADEB29 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A121A41CD4F100001814AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1394C4EA9BBA5FD4006822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0005C461A0D46E696F585BAA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E81939D314B8602584A99F7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				428298B110DC3B15BA0E9EE3 /* Pods.debug.xcconfig */,
+				A336895FDA5FC0D3E688C0EC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8A121531CD473BC001814AC = {
+			isa = PBXGroup;
+			children = (
+				F8A1215E1CD473BC001814AC /* SnackProject */,
+				F8A121A81CD4F100001814AC /* SnackProjectTests */,
+				F8A1215D1CD473BC001814AC /* Products */,
+				E81939D314B8602584A99F7C /* Pods */,
+				3B1394C4EA9BBA5FD4006822 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F8A1215D1CD473BC001814AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8A1215C1CD473BC001814AC /* SnackProject.app */,
+				F8A121A71CD4F100001814AC /* SnackProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8A1215E1CD473BC001814AC /* SnackProject */ = {
+			isa = PBXGroup;
+			children = (
+				F8A1216B1CD473BC001814AC /* Assets.xcassets */,
+				F8A1216D1CD473BC001814AC /* LaunchScreen.storyboard */,
+				F8A121621CD473BC001814AC /* SPAppDelegate.h */,
+				F8A121631CD473BC001814AC /* SPAppDelegate.m */,
+				F8A121761CD4748D001814AC /* SPViewController.h */,
+				F8A121771CD4748D001814AC /* SPViewController.m */,
+				F8A121781CD4748D001814AC /* SPViewController.xib */,
+				F8A121921CD4E236001814AC /* SnackGame */,
+				F8A1219C1CD4E249001814AC /* SnackDisplay */,
+				F8A1215F1CD473BC001814AC /* Supporting Files */,
+			);
+			path = SnackProject;
+			sourceTree = "<group>";
+		};
+		F8A1215F1CD473BC001814AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8A121701CD473BC001814AC /* Info.plist */,
+				F8A121601CD473BC001814AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8A121921CD4E236001814AC /* SnackGame */ = {
+			isa = PBXGroup;
+			children = (
+				F8A121931CD4E236001814AC /* SPCoordinates.h */,
+				F8A121941CD4E236001814AC /* SPCoordinates.m */,
+				F8A121951CD4E236001814AC /* SPMap.h */,
+				F8A121961CD4E236001814AC /* SPMap.m */,
+				F8A121971CD4E236001814AC /* SPSnack.h */,
+				F8A121981CD4E236001814AC /* SPSnack.m */,
+			);
+			path = SnackGame;
+			sourceTree = "<group>";
+		};
+		F8A1219C1CD4E249001814AC /* SnackDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				F8A1219D1CD4E29B001814AC /* SPRectLabelsDIsplayView.h */,
+				F8A1219E1CD4E29B001814AC /* SPRectLabelsDIsplayView.m */,
+				F8A121A01CD4E73C001814AC /* SPQuartzDisplayView.h */,
+				F8A121A11CD4E73C001814AC /* SPQuartzDisplayView.m */,
+			);
+			path = SnackDisplay;
+			sourceTree = "<group>";
+		};
+		F8A121A81CD4F100001814AC /* SnackProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8A121A91CD4F100001814AC /* SnackProjectTests.m */,
+				F8A121AB1CD4F100001814AC /* Info.plist */,
+			);
+			path = SnackProjectTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8A1215B1CD473BC001814AC /* SnackProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A121731CD473BC001814AC /* Build configuration list for PBXNativeTarget "SnackProject" */;
+			buildPhases = (
+				328AB2D69EA42A94B07D7A0E /* Check Pods Manifest.lock */,
+				F8A121581CD473BC001814AC /* Sources */,
+				F8A121591CD473BC001814AC /* Frameworks */,
+				F8A1215A1CD473BC001814AC /* Resources */,
+				39F861A88069795CEF1725B8 /* Embed Pods Frameworks */,
+				7AE3B0DC3F619715D90A0216 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnackProject;
+			productName = SnackProject;
+			productReference = F8A1215C1CD473BC001814AC /* SnackProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8A121A61CD4F100001814AC /* SnackProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A121AE1CD4F100001814AC /* Build configuration list for PBXNativeTarget "SnackProjectTests" */;
+			buildPhases = (
+				F8A121A31CD4F100001814AC /* Sources */,
+				F8A121A41CD4F100001814AC /* Frameworks */,
+				F8A121A51CD4F100001814AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8A121AD1CD4F100001814AC /* PBXTargetDependency */,
+			);
+			name = SnackProjectTests;
+			productName = SnackProjectTests;
+			productReference = F8A121A71CD4F100001814AC /* SnackProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8A121541CD473BC001814AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = w91379137;
+				TargetAttributes = {
+					F8A1215B1CD473BC001814AC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F8A121A61CD4F100001814AC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F8A1215B1CD473BC001814AC;
+					};
+				};
+			};
+			buildConfigurationList = F8A121571CD473BC001814AC /* Build configuration list for PBXProject "SnackProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8A121531CD473BC001814AC;
+			productRefGroup = F8A1215D1CD473BC001814AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8A1215B1CD473BC001814AC /* SnackProject */,
+				F8A121A61CD4F100001814AC /* SnackProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8A1215A1CD473BC001814AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A1216F1CD473BC001814AC /* LaunchScreen.storyboard in Resources */,
+				F8A1217A1CD4748D001814AC /* SPViewController.xib in Resources */,
+				F8A1216C1CD473BC001814AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A121A51CD4F100001814AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		328AB2D69EA42A94B07D7A0E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		39F861A88069795CEF1725B8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AE3B0DC3F619715D90A0216 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8A121581CD473BC001814AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A121991CD4E236001814AC /* SPCoordinates.m in Sources */,
+				F8A1219A1CD4E236001814AC /* SPMap.m in Sources */,
+				F8A121791CD4748D001814AC /* SPViewController.m in Sources */,
+				F8A121A21CD4E73C001814AC /* SPQuartzDisplayView.m in Sources */,
+				F8A1219B1CD4E236001814AC /* SPSnack.m in Sources */,
+				F8A121641CD473BC001814AC /* SPAppDelegate.m in Sources */,
+				F8A1219F1CD4E29B001814AC /* SPRectLabelsDIsplayView.m in Sources */,
+				F8A121611CD473BC001814AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A121A31CD4F100001814AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A121AA1CD4F100001814AC /* SnackProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8A121AD1CD4F100001814AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8A1215B1CD473BC001814AC /* SnackProject */;
+			targetProxy = F8A121AC1CD4F100001814AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8A1216D1CD473BC001814AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8A1216E1CD473BC001814AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8A121711CD473BC001814AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8A121721CD473BC001814AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8A121741CD473BC001814AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 428298B110DC3B15BA0E9EE3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnackProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.a.SnackProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8A121751CD473BC001814AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A336895FDA5FC0D3E688C0EC /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnackProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.a.SnackProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8A121AF1CD4F100001814AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnackProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.a.SnackProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnackProject.app/SnackProject";
+			};
+			name = Debug;
+		};
+		F8A121B01CD4F100001814AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnackProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.a.SnackProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnackProject.app/SnackProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8A121571CD473BC001814AC /* Build configuration list for PBXProject "SnackProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A121711CD473BC001814AC /* Debug */,
+				F8A121721CD473BC001814AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8A121731CD473BC001814AC /* Build configuration list for PBXNativeTarget "SnackProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A121741CD473BC001814AC /* Debug */,
+				F8A121751CD473BC001814AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8A121AE1CD4F100001814AC /* Build configuration list for PBXNativeTarget "SnackProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A121AF1CD4F100001814AC /* Debug */,
+				F8A121B01CD4F100001814AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8A121541CD473BC001814AC /* Project object */;
+}
