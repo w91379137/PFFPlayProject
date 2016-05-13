@@ -1,0 +1,30 @@
+PODS:
+  - Masonry (1.0.0)
+  - PDSSafeKVO_objc (0.0.5)
+  - PDSSetting_objc (0.0.1)
+
+DEPENDENCIES:
+  - Masonry
+  - PDSSafeKVO_objc (from `https://github.com/w91379137/PDSSafeKVO_objc.git`)
+  - PDSSetting_objc (from `https://github.com/w91379137/PDSSetting_objc.git`)
+
+EXTERNAL SOURCES:
+  PDSSafeKVO_objc:
+    :git: https://github.com/w91379137/PDSSafeKVO_objc.git
+  PDSSetting_objc:
+    :git: https://github.com/w91379137/PDSSetting_objc.git
+
+CHECKOUT OPTIONS:
+  PDSSafeKVO_objc:
+    :commit: 609ab2bd6e8e1ff9edb368748d30d29790dc3423
+    :git: https://github.com/w91379137/PDSSafeKVO_objc.git
+  PDSSetting_objc:
+    :commit: d5d6861a90d8eeb18ca95a886ad64df95fb60b0f
+    :git: https://github.com/w91379137/PDSSetting_objc.git
+
+SPEC CHECKSUMS:
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  PDSSafeKVO_objc: a9fc93c88b33bd2356fb514243306b4813ca46ff
+  PDSSetting_objc: db49d962b3ccd35aef38e4933ee6dbfede606b34
+
+COCOAPODS: 0.39.0

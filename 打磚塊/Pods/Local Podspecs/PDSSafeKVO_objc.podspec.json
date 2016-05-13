@@ -1,0 +1,22 @@
+{
+  "name": "PDSSafeKVO_objc",
+  "version": "0.0.5",
+  "summary": "Description of your projectx",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "w91379137": "w91379137"
+  },
+  "homepage": "https://github.com/w91379137/PDSSafeKVO_objc",
+  "source": {
+    "git": "https://github.com/w91379137/PDSSafeKVO_objc.git",
+    "tag": "0.0.5"
+  },
+  "source_files": "PDSSafeKVO_objc/**/*",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  }
+}
