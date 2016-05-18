@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F899F2C61CEC6F410052AA35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F899F2C51CEC6F410052AA35 /* main.m */; };
+		F899F2C91CEC6F410052AA35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F899F2C81CEC6F410052AA35 /* AppDelegate.m */; };
+		F899F2CC1CEC6F410052AA35 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F899F2CB1CEC6F410052AA35 /* GameScene.m */; };
+		F899F2D11CEC6F410052AA35 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F899F2D01CEC6F410052AA35 /* GameViewController.m */; };
+		F899F2D41CEC6F410052AA35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F899F2D21CEC6F410052AA35 /* Main.storyboard */; };
+		F899F2D61CEC6F410052AA35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F899F2D51CEC6F410052AA35 /* Assets.xcassets */; };
+		F899F2D91CEC6F420052AA35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F899F2D71CEC6F420052AA35 /* LaunchScreen.storyboard */; };
+		F899F2E31CEC725D0052AA35 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = F899F2E11CEC725D0052AA35 /* spark.png */; };
+		F899F2E91CEC77500052AA35 /* ParticleSpark.sks in Resources */ = {isa = PBXBuildFile; fileRef = F899F2E81CEC77500052AA35 /* ParticleSpark.sks */; };
+		F899F2EC1CECA4B00052AA35 /* ParticleBokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = F899F2EA1CECA4B00052AA35 /* ParticleBokeh.sks */; };
+		F899F2ED1CECA4B00052AA35 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = F899F2EB1CECA4B00052AA35 /* bokeh.png */; };
+		F899F2EF1CECA6160052AA35 /* ParticleFire.sks in Resources */ = {isa = PBXBuildFile; fileRef = F899F2EE1CECA6160052AA35 /* ParticleFire.sks */; };
+		F899F2F11CECA6BF0052AA35 /* ParticleFireflies.sks in Resources */ = {isa = PBXBuildFile; fileRef = F899F2F01CECA6BF0052AA35 /* ParticleFireflies.sks */; };
+		F899F2F31CECA7100052AA35 /* ParticleMagic.sks in Resources */ = {isa = PBXBuildFile; fileRef = F899F2F21CECA7100052AA35 /* ParticleMagic.sks */; };
+		F899F2F51CECA74E0052AA35 /* ParticleRain.sks in Resources */ = {isa = PBXBuildFile; fileRef = F899F2F41CECA74E0052AA35 /* ParticleRain.sks */; };
+		F899F2F71CECA80C0052AA35 /* ParticleSmoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = F899F2F61CECA80C0052AA35 /* ParticleSmoke.sks */; };
+		F899F2F91CECA8750052AA35 /* ParticleSnow.sks in Resources */ = {isa = PBXBuildFile; fileRef = F899F2F81CECA8750052AA35 /* ParticleSnow.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F899F2C11CEC6F410052AA35 /* ViewField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F899F2C51CEC6F410052AA35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F899F2C71CEC6F410052AA35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F899F2C81CEC6F410052AA35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F899F2CA1CEC6F410052AA35 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		F899F2CB1CEC6F410052AA35 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		F899F2CF1CEC6F410052AA35 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		F899F2D01CEC6F410052AA35 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		F899F2D31CEC6F410052AA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F899F2D51CEC6F410052AA35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F899F2D81CEC6F420052AA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F899F2DA1CEC6F420052AA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F899F2E11CEC725D0052AA35 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		F899F2E81CEC77500052AA35 /* ParticleSpark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleSpark.sks; sourceTree = "<group>"; };
+		F899F2EA1CECA4B00052AA35 /* ParticleBokeh.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleBokeh.sks; sourceTree = "<group>"; };
+		F899F2EB1CECA4B00052AA35 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
+		F899F2EE1CECA6160052AA35 /* ParticleFire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleFire.sks; sourceTree = "<group>"; };
+		F899F2F01CECA6BF0052AA35 /* ParticleFireflies.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleFireflies.sks; sourceTree = "<group>"; };
+		F899F2F21CECA7100052AA35 /* ParticleMagic.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleMagic.sks; sourceTree = "<group>"; };
+		F899F2F41CECA74E0052AA35 /* ParticleRain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleRain.sks; sourceTree = "<group>"; };
+		F899F2F61CECA80C0052AA35 /* ParticleSmoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleSmoke.sks; sourceTree = "<group>"; };
+		F899F2F81CECA8750052AA35 /* ParticleSnow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleSnow.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F899F2BE1CEC6F410052AA35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F899F2B81CEC6F410052AA35 = {
+			isa = PBXGroup;
+			children = (
+				F899F2C31CEC6F410052AA35 /* ViewField */,
+				F899F2C21CEC6F410052AA35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F899F2C21CEC6F410052AA35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F899F2C11CEC6F410052AA35 /* ViewField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F899F2C31CEC6F410052AA35 /* ViewField */ = {
+			isa = PBXGroup;
+			children = (
+				F899F2D51CEC6F410052AA35 /* Assets.xcassets */,
+				F899F2D71CEC6F420052AA35 /* LaunchScreen.storyboard */,
+				F899F2D21CEC6F410052AA35 /* Main.storyboard */,
+				F899F2C71CEC6F410052AA35 /* AppDelegate.h */,
+				F899F2C81CEC6F410052AA35 /* AppDelegate.m */,
+				F899F2CF1CEC6F410052AA35 /* GameViewController.h */,
+				F899F2D01CEC6F410052AA35 /* GameViewController.m */,
+				F899F2CA1CEC6F410052AA35 /* GameScene.h */,
+				F899F2CB1CEC6F410052AA35 /* GameScene.m */,
+				F899F2EA1CECA4B00052AA35 /* ParticleBokeh.sks */,
+				F899F2EE1CECA6160052AA35 /* ParticleFire.sks */,
+				F899F2F01CECA6BF0052AA35 /* ParticleFireflies.sks */,
+				F899F2F21CECA7100052AA35 /* ParticleMagic.sks */,
+				F899F2F41CECA74E0052AA35 /* ParticleRain.sks */,
+				F899F2F61CECA80C0052AA35 /* ParticleSmoke.sks */,
+				F899F2F81CECA8750052AA35 /* ParticleSnow.sks */,
+				F899F2E81CEC77500052AA35 /* ParticleSpark.sks */,
+				F899F2EB1CECA4B00052AA35 /* bokeh.png */,
+				F899F2E11CEC725D0052AA35 /* spark.png */,
+				F899F2C41CEC6F410052AA35 /* Supporting Files */,
+			);
+			path = ViewField;
+			sourceTree = "<group>";
+		};
+		F899F2C41CEC6F410052AA35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F899F2DA1CEC6F420052AA35 /* Info.plist */,
+				F899F2C51CEC6F410052AA35 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F899F2C01CEC6F410052AA35 /* ViewField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F899F2DD1CEC6F420052AA35 /* Build configuration list for PBXNativeTarget "ViewField" */;
+			buildPhases = (
+				F899F2BD1CEC6F410052AA35 /* Sources */,
+				F899F2BE1CEC6F410052AA35 /* Frameworks */,
+				F899F2BF1CEC6F410052AA35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewField;
+			productName = ViewField;
+			productReference = F899F2C11CEC6F410052AA35 /* ViewField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F899F2B91CEC6F410052AA35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = w91379137;
+				TargetAttributes = {
+					F899F2C01CEC6F410052AA35 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F899F2BC1CEC6F410052AA35 /* Build configuration list for PBXProject "ViewField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F899F2B81CEC6F410052AA35;
+			productRefGroup = F899F2C21CEC6F410052AA35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F899F2C01CEC6F410052AA35 /* ViewField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F899F2BF1CEC6F410052AA35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F899F2F91CECA8750052AA35 /* ParticleSnow.sks in Resources */,
+				F899F2E31CEC725D0052AA35 /* spark.png in Resources */,
+				F899F2EC1CECA4B00052AA35 /* ParticleBokeh.sks in Resources */,
+				F899F2E91CEC77500052AA35 /* ParticleSpark.sks in Resources */,
+				F899F2D91CEC6F420052AA35 /* LaunchScreen.storyboard in Resources */,
+				F899F2D61CEC6F410052AA35 /* Assets.xcassets in Resources */,
+				F899F2F51CECA74E0052AA35 /* ParticleRain.sks in Resources */,
+				F899F2F71CECA80C0052AA35 /* ParticleSmoke.sks in Resources */,
+				F899F2ED1CECA4B00052AA35 /* bokeh.png in Resources */,
+				F899F2F31CECA7100052AA35 /* ParticleMagic.sks in Resources */,
+				F899F2F11CECA6BF0052AA35 /* ParticleFireflies.sks in Resources */,
+				F899F2D41CEC6F410052AA35 /* Main.storyboard in Resources */,
+				F899F2EF1CECA6160052AA35 /* ParticleFire.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F899F2BD1CEC6F410052AA35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F899F2D11CEC6F410052AA35 /* GameViewController.m in Sources */,
+				F899F2C91CEC6F410052AA35 /* AppDelegate.m in Sources */,
+				F899F2CC1CEC6F410052AA35 /* GameScene.m in Sources */,
+				F899F2C61CEC6F410052AA35 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F899F2D21CEC6F410052AA35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F899F2D31CEC6F410052AA35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F899F2D71CEC6F420052AA35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F899F2D81CEC6F420052AA35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F899F2DB1CEC6F420052AA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F899F2DC1CEC6F420052AA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F899F2DE1CEC6F420052AA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViewField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.a.ViewField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F899F2DF1CEC6F420052AA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViewField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.a.ViewField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F899F2BC1CEC6F410052AA35 /* Build configuration list for PBXProject "ViewField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F899F2DB1CEC6F420052AA35 /* Debug */,
+				F899F2DC1CEC6F420052AA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F899F2DD1CEC6F420052AA35 /* Build configuration list for PBXNativeTarget "ViewField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F899F2DE1CEC6F420052AA35 /* Debug */,
+				F899F2DF1CEC6F420052AA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F899F2B91CEC6F410052AA35 /* Project object */;
+}
